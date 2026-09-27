@@ -1,0 +1,627 @@
+# YORK IMAGING
+## SEE THE WORLD DIFFERENTLY.
+
+### The world's next great imaging company will not be a camera company.
+
+It will be an **imaging technology company**.
+
+York Imaging exists to build the complete technological infrastructure for seeing, understanding and reproducing the physical world.
+
+We combine:
+
+**advanced sensors + optics + artificial intelligence + computational imaging + semiconductor technology + robotics + lighting + software.**
+
+Our ambition is to build imaging systems **four years ahead of the commercial market**.
+
+Not an incremental camera.
+
+Not another electronics brand.
+
+A new imaging platform.
+
+---
+
+# 01 — THE THESIS
+
+The modern camera is approaching a technological convergence.
+
+Sensor technology is becoming extraordinarily capable.
+
+AI is transforming image processing.
+
+Optics are increasingly computational.
+
+Machine vision is becoming ubiquitous.
+
+Lighting is becoming programmable.
+
+Edge computing is becoming powerful enough to process enormous quantities of visual information locally.
+
+Yet these technologies are still largely developed independently.
+
+**York Imaging brings them together.**
+
+We believe the next generation of imaging will be created by companies that control the entire pipeline:
+
+**PHOTON → SENSOR → SILICON → AI → IMAGE → APPLICATION**
+
+That is our company.
+
+---
+
+# 02 — THE YORK IMAGING ENGINE
+
+Our core technology platform consists of seven layers.
+
+### 1. SENSING
+
+Next-generation image sensors designed for:
+
+- extreme dynamic range
+- high-speed capture
+- low-light imaging
+- high spectral sensitivity
+- computational HDR
+- global shutter
+- scientific imaging
+- machine vision
+
+We will eventually design our own sensor architectures.
+
+---
+
+### 2. OPTICS
+
+Advanced optical systems engineered alongside computational algorithms.
+
+Instead of asking:
+
+**"How perfect can we make the lens?"**
+
+we ask:
+
+**"How perfect can we make the entire optical system?"**
+
+The lens and processor become one system.
+
+---
+
+### 3. COMPUTATIONAL IMAGING
+
+Our cameras will not simply record light.
+
+They will **model it**.
+
+Our computational imaging engine will understand:
+
+- light
+- depth
+- motion
+- colour
+- surfaces
+- geometry
+- atmospheric conditions
+- lens behaviour
+- sensor behaviour
+
+The result is an entirely new class of image formation.
+
+---
+
+### 4. YORK AI
+
+AI becomes part of the imaging architecture itself.
+
+Not an AI chatbot bolted onto a camera.
+
+Instead:
+
+**AI inside the imaging pipeline.**
+
+York AI will handle:
+
+- autofocus prediction
+- noise reconstruction
+- exposure
+- colour science
+- object tracking
+- depth estimation
+- image reconstruction
+- optical correction
+- motion compensation
+- scene understanding
+
+And increasingly:
+
+**real-time visual intelligence.**
+
+---
+
+### 5. YORK SILICON
+
+Long-term, we develop our own imaging processors.
+
+Purpose-built silicon for:
+
+**visual computation.**
+
+Dedicated acceleration for:
+
+- neural imaging
+- sensor processing
+- computer vision
+- optical correction
+- HDR
+- autofocus
+- video
+- edge AI
+
+This gives York Imaging control over the computational heart of its products.
+
+---
+
+### 6. INTELLIGENT LIGHTING
+
+Lighting becomes part of the imaging computer.
+
+York lighting systems communicate directly with the camera.
+
+The system understands:
+
+**what is being photographed + how it is being illuminated + how the sensor responds.**
+
+Lighting therefore becomes programmable.
+
+A studio becomes a computational environment.
+
+A film set becomes a real-time imaging system.
+
+A laboratory becomes an optical computing environment.
+
+---
+
+### 7. IMAGING SOFTWARE
+
+All York hardware runs on a common imaging platform.
+
+**York Imaging OS**
+
+provides the software architecture connecting:
+
+- cameras
+- sensors
+- lenses
+- lighting
+- AI
+- storage
+- displays
+- cloud systems
+- professional workflows
+- industrial imaging systems
+
+The objective is a single imaging ecosystem.
+
+---
+
+# 03 — THE FIRST PRODUCT
+
+Our first major product is not simply a camera.
+
+It is a **computational imaging platform disguised as a camera.**
+
+## YORK ONE
+
+A professional imaging computer with:
+
+- next-generation sensor
+- York computational imaging processor
+- AI autofocus
+- computational optics
+- advanced colour engine
+- professional video
+- intelligent lighting integration
+- high-speed wireless connectivity
+- modular architecture
+- professional API
+- York Imaging OS
+
+The physical camera becomes the interface through which the technology is experienced.
+
+---
+
+# 04 — FROM CAMERA TO PLATFORM
+
+Once the technology is established, the same architecture expands into other markets.
+
+### PROFESSIONAL IMAGING
+
+Photography  
+Cinema  
+Broadcast  
+Advertising  
+Fashion
+
+### INDUSTRIAL VISION
+
+Manufacturing  
+Robotics  
+Inspection  
+Logistics  
+Infrastructure
+
+### SCIENTIFIC IMAGING
+
+Microscopy  
+Astronomy  
+Materials science  
+Environmental monitoring  
+Research
+
+### AUTONOMOUS SYSTEMS
+
+Robotics  
+Drones  
+Vehicles  
+Navigation  
+Machine perception
+
+### SPATIAL COMPUTING
+
+AR  
+VR  
+3D reconstruction  
+Digital twins  
+Spatial mapping
+
+### SECURITY & INFRASTRUCTURE
+
+Railways  
+Ports  
+Airports  
+Energy infrastructure  
+Smart cities
+
+York Imaging becomes a **visual technology platform** rather than a consumer electronics company.
+
+---
+
+# 05 — THE FOUR-YEAR ADVANTAGE
+
+Our internal rule:
+
+> **If the technology can be commercialised today, it is probably not ambitious enough.**
+
+York Imaging maintains a permanent four-year technology horizon.
+
+Our R&D organisation is divided into:
+
+### NOW
+
+Products entering production.
+
+### +2
+
+Technologies moving towards commercialisation.
+
+### +4
+
+Technologies that define the next generation.
+
+### +8
+
+Fundamental research with uncertain commercial applications.
+
+This prevents the company from becoming trapped by the current camera market.
+
+---
+
+# 06 — VERTICAL INTEGRATION
+
+York Imaging will progressively bring critical technology in-house.
+
+### YORK SENSOR LABS
+Sensor architecture and imaging research.
+
+### YORK OPTICS
+Lenses and optical systems.
+
+### YORK SILICON
+Imaging processors and accelerators.
+
+### YORK AI
+Computational imaging and machine vision.
+
+### YORK LIGHT
+Intelligent illumination.
+
+### YORK ROBOTICS
+Automated manufacturing and visual systems.
+
+### YORK SOFTWARE
+Operating systems and applications.
+
+### YORK PRECISION
+Precision manufacturing.
+
+### YORK MATERIALS
+Advanced materials and coatings.
+
+The strategic principle is:
+
+> **Own whatever determines the quality of the image.**
+
+---
+
+# 07 — THE YORK CAMPUS
+
+Our headquarters becomes a new type of technology campus.
+
+Not simply offices.
+
+A combination of:
+
+**AI laboratory**
+
+**optics laboratory**
+
+**semiconductor design centre**
+
+**precision factory**
+
+**camera laboratory**
+
+**film studio**
+
+**robotics facility**
+
+**lighting laboratory**
+
+**materials laboratory**
+
+**testing centre**
+
+**startup incubator**
+
+**research institute**
+
+The campus itself becomes a demonstration of York Imaging technology.
+
+Everywhere there are cameras.
+
+Everywhere there are sensors.
+
+Everywhere machines are measuring the physical world.
+
+---
+
+# 08 — THE COMPANY CULTURE
+
+York Imaging operates more like a deep-tech laboratory than a traditional camera company.
+
+We recruit:
+
+**physicists**
+
+**optical engineers**
+
+**AI researchers**
+
+**computer scientists**
+
+**semiconductor engineers**
+
+**roboticists**
+
+**materials scientists**
+
+**industrial designers**
+
+**photographers**
+
+**cinematographers**
+
+**mathematicians**
+
+**manufacturing engineers**
+
+The fundamental question is always:
+
+> **Can we make the machine see better?**
+
+---
+
+# 09 — DESIGN
+
+York Imaging products should look like scientific instruments from the future.
+
+Not futuristic for the sake of appearance.
+
+Functional.
+
+Precise.
+
+Quiet.
+
+Minimal.
+
+Beautiful.
+
+British.
+
+The aesthetic language combines:
+
+**aerospace engineering + optical instruments + modern British industrial design + Silicon Valley computational minimalism.**
+
+No unnecessary buttons.
+
+No unnecessary decoration.
+
+No fake complexity.
+
+The technology creates the identity.
+
+---
+
+# 10 — THE BUSINESS MODEL
+
+York Imaging ultimately operates across four interconnected businesses.
+
+### HARDWARE
+
+Cameras  
+Sensors  
+Lenses  
+Lighting  
+Imaging computers  
+Industrial vision systems
+
+### SOFTWARE
+
+Imaging OS  
+Professional applications  
+AI imaging  
+Computer vision  
+Cloud workflow
+
+### TECHNOLOGY
+
+Imaging processors  
+Sensor IP  
+Optical technology  
+AI models  
+Computational imaging
+
+### ENTERPRISE
+
+Industrial imaging  
+Scientific imaging  
+Robotics  
+Infrastructure  
+Professional cinema  
+Machine vision
+
+The camera becomes the first visible expression of a much larger technology company.
+
+---
+
+# 11 — THE £10 BILLION VISION
+
+The £10bn ambition is justified not by selling cameras.
+
+It is justified by building an **imaging technology stack**.
+
+The long-term opportunity spans:
+
+**Photography**
+
+↓
+
+**Cinema**
+
+↓
+
+**Machine Vision**
+
+↓
+
+**Robotics**
+
+↓
+
+**Scientific Imaging**
+
+↓
+
+**Autonomous Systems**
+
+↓
+
+**Spatial Computing**
+
+↓
+
+**Industrial AI**
+
+The same fundamental technologies—sensors, optics, computation and visual intelligence—operate across all of them.
+
+---
+
+# 12 — YORK
+
+York becomes more than our headquarters.
+
+It becomes our technological identity.
+
+We want the phrase:
+
+### **"Imaging technology from York."**
+
+to become internationally recognised.
+
+The company creates a new technology cluster around the city.
+
+Engineers arrive.
+
+Researchers arrive.
+
+Startups emerge.
+
+Suppliers establish operations.
+
+Universities create new programmes.
+
+Specialist manufacturing develops.
+
+Capital follows talent.
+
+A new British deep-tech ecosystem emerges around **visual technology**.
+
+---
+
+# 13 — OUR MANIFESTO
+
+We believe the physical world is becoming computational.
+
+We believe cameras are becoming computers.
+
+We believe sensors are becoming intelligent.
+
+We believe optics and software will increasingly become one technology.
+
+We believe lighting can become programmable.
+
+We believe AI will fundamentally change how images are captured—not merely how they are edited.
+
+We believe the next great imaging company must control more than the camera.
+
+It must control the technology underneath it.
+
+We will build the sensors.
+
+We will design the optics.
+
+We will develop the silicon.
+
+We will train the intelligence.
+
+We will engineer the lighting.
+
+We will build the machines.
+
+We will write the software.
+
+We will manufacture the instruments.
+
+And we will bring all of it together in York.
+
+Our objective is not to follow the imaging industry.
+
+**Our objective is to redefine it.**
+
+### YORK IMAGING
+
+**SEE FURTHER.**
+
+**BUILD DEEPER.**
+
+**IMAGINE FIRST.**
