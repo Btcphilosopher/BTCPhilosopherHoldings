@@ -1033,7 +1033,6 @@ module HydrogenLighterOS
 # H2-LIGHTER.OS
 # Burn Amount Selector
 #
-# Pure Julia
 #
 # The physical hardware should independently enforce safe
 # gas/pressure/temperature limits. This software selector is
