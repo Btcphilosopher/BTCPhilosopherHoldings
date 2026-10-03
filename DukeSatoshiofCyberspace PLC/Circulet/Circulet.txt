@@ -1,0 +1,26 @@
+Circulent
+
+Short business introduction
+
+Proof-of-Recycling (P-o-R) is a Brighton technology company building the digital infrastructure for a measurable circular economy.
+
+P-o-R creates cryptographically verifiable records showing that a resource has been identified, recovered, reused, recycled or released, together with evidence of what actually happened. Its first platform focuses on digital resources such as computing memory, storage and GPU capacity, before extending the protocol to physical materials and industrial recycling.
+
+The company's proposition is simple:
+
+If something has been recycled, prove it.
+
+
+The Brighton opportunity is particularly interesting as a technology-and-sustainability company, rather than a conventional recycling business: software engineers, cryptography, environmental accounting, AI/data infrastructure and circular-economy companies can all become part of the ecosystem.
+
+The commercial model could combine:
+
+SaaS subscriptions + API usage + enterprise verification + certification/attestation services + data infrastructure licences.
+
+The long-term ambition would be to establish P-o-R as a neutral protocol for proving resource circularity — analogous in concept to how financial systems use transaction records to establish what happened to money.
+
+The crucial distinction is that P-o-R should never simply say “this was recycled.” It should provide a structured chain of evidence:
+
+RESOURCE → EVENT → MEASUREMENT → RECYCLING → EVIDENCE → CRYPTOGRAPHIC ATTESTATION → VERIFICATION
+
+That gives Brighton a plausible foundation for a new kind of digital circular-economy infrastructure company.
