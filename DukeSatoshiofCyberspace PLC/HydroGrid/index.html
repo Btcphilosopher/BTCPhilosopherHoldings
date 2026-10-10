@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hydrogen Opportunity - Building the Next Energy Major</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #e6edf3;
+            background: #0d1117;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #1a365d 0%, #0d1117 100%);
+            padding: 80px 20px;
+            text-align: center;
+            border-bottom: 2px solid #30363d;
+        }
+        
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #58a6ff;
+            font-weight: 700;
+        }
+        
+        .hero .tagline {
+            font-size: 1.5em;
+            color: #8b949e;
+            margin-bottom: 30px;
+        }
+        
+        .hero .market-size {
+            font-size: 2em;
+            color: #7ee787;
+            font-weight: 600;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .thesis {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .thesis h2 {
+            color: #58a6ff;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        
+        .thesis p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        
+        .highlight {
+            color: #7ee787;
+            font-weight: 600;
+        }
+        
+        .section {
+            margin-bottom: 60px;
+        }
+        
+        .section h2 {
+            color: #58a6ff;
+            font-size: 2em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #30363d;
+        }
+        
+        .section h3 {
+            color: #79c0ff;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        
+        .section h4 {
+            color: #a5d6ff;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 25px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #58a6ff;
+        }
+        
+        .card h3 {
+            color: #58a6ff;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        
+        .card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .card li {
+            padding-left: 20px;
+            position: relative;
+            margin-bottom: 8px;
+        }
+        
+        .card li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #7ee787;
+        }
+        
+        .metrics {
+            background: linear-gradient(135deg, #1a365d 0%, #1f2937 100%);
+            border-radius: 6px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+        
+        .metrics h3 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #58a6ff;
+        }
+        
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .metric {
+            text-align: center;
+        }
+        
+        .metric-value {
+            font-size: 2.5em;
+            color: #7ee787;
+            font-weight: 700;
+        }
+        
+        .metric-label {
+            color: #8b949e;
+            font-size: 0.9em;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+            margin: 30px 0;
+        }
+        
+        .timeline:before {
+            content: "";
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #30363d;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 40px;
+        }
+        
+        .timeline-item:before {
+            content: "";
+            position: absolute;
+            left: -34px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #58a6ff;
+            border: 2px solid #0d1117;
+        }
+        
+        .timeline-item h4 {
+            color: #7ee787;
+            margin-bottom: 10px;
+        }
+        
+        .cta {
+            background: linear-gradient(135deg, #1a365d 0%, #0f4c81 100%);
+            border-radius: 6px;
+            padding: 60px 40px;
+            text-align: center;
+            margin: 60px 0;
+        }
+        
+        .cta h2 {
+            color: #fff;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        
+        .cta p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            color: #c9d1d9;
+        }
+        
+        .cta-highlight {
+            font-size: 1.8em;
+            color: #7ee787;
+            font-weight: 700;
+            margin: 20px 0;
+        }
+        
+        ul {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #7ee787;
+        }
+        
+        .risks {
+            background: #1c1f26;
+            border-left: 4px solid #f85149;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .risks h4 {
+            color: #f85149;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+            
+            .hero .tagline {
+                font-size: 1.2em;
+            }
+            
+            .hero .market-size {
+                font-size: 1.5em;
+            }
+            
+            .thesis {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>The Hydrogen Opportunity</h1>
+        <p class="tagline">Building the Next Energy Major</p>
+        <p class="market-size">£15-24bn Annual Revenue Potential</p>
+    </div>
+
+    <div class="container">
+        <div class="thesis">
+            <h2>Investment Thesis</h2>
+            <p>We have a once-in-a-generation opportunity to build a vertically-integrated energy company that can capture 25-40% of the UK's £60bn+ annual energy market while it's in transition. The incumbent players are trapped by legacy infrastructure and regulatory constraints. We're not.</p>
+            <p><strong>The Play:</strong> Buy hydrogen cheap where electricity is abundant (Middle East, North Africa, Australia), ship it to the UK, and sell it into three high-margin markets simultaneously: industry, transport, and residential.</p>
+            <p><strong>Why Now:</strong> The gas grid exists. The regulatory framework is being written. The competition hasn't mobilized. But the window closes in 3-5 years.</p>
+        </div>
+
+        <div class="section">
+            <h2>The Structural Advantage</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>What Big Oil Can't Do</h3>
+                    <ul>
+                        <li>Committed to existing LNG infrastructure (sunk costs)</li>
+                        <li>Shareholders punish energy transition pivots</li>
+                        <li>Move slowly on new infrastructure</li>
+                        <li>Regulatory capture works both ways</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>What Utilities Can't Do</h3>
+                    <ul>
+                        <li>Trapped in domestic generation assets</li>
+                        <li>Regulated rate-of-return mindset</li>
+                        <li>No international procurement capabilities</li>
+                        <li>Slow, committee-driven decisions</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Our Edge</h3>
+                    <ul>
+                        <li>Start with the end-state infrastructure</li>
+                        <li>Global procurement + UK distribution arbitrage</li>
+                        <li>Own the customer relationship</li>
+                        <li>Move at startup speed</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Business Model</h2>
+            <h3>Revenue Streams at Scale</h3>
+            <div class="grid">
+                <div class="card">
+                    <h3>Industrial Direct Sales</h3>
+                    <p class="metric-value">50%</p>
+                    <p>£7.5-12bn annual revenue</p>
+                    <ul>
+                        <li>Steel, cement, chemicals, refineries</li>
+                        <li>10-20 year offtake agreements</li>
+                        <li>Highest margin segment</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Residential Distribution</h3>
+                    <p class="metric-value">35%</p>
+                    <p>£5.25-8.4bn annual revenue</p>
+                    <ul>
+                        <li>Existing gas grid infrastructure</li>
+                        <li>Consumer brand on "modern energy"</li>
+                        <li>Volume play</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Commercial Transport</h3>
+                    <p class="metric-value">15%</p>
+                    <p>£2.25-3.6bn annual revenue</p>
+                    <ul>
+                        <li>HGV refueling networks</li>
+                        <li>Fleet contracts with logistics</li>
+                        <li>Growth driver</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="metrics">
+                <h3>Unit Economics</h3>
+                <div class="metric-grid">
+                    <div class="metric">
+                        <div class="metric-value">$1.50-2.50</div>
+                        <div class="metric-label">Landed Cost per kg</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">£4-12</div>
+                        <div class="metric-label">UK Pricing per kg</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">50-65%</div>
+                        <div class="metric-label">Gross Margin at Scale</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Execution Roadmap</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Phase 1: Beachhead (Years 1-3)</h4>
+                    <p><strong>Investment:</strong> £500m-1bn</p>
+                    <ul>
+                        <li>Single import terminal (Teesside or Milford Haven)</li>
+                        <li>20-year supply contracts with Middle East producers</li>
+                        <li>3-5 major industrial anchor tenants in Northern England</li>
+                        <li>Dedicated pipelines to first customers (10-20km each)</li>
+                        <li>Target: British Steel, Tata Chemicals, INEOS, Essar</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h4>Phase 2: Scale Supply Chain (Years 3-5)</h4>
+                    <p><strong>Investment:</strong> £2-3bn</p>
+                    <ul>
+                        <li>Second terminal for geographical redundancy</li>
+                        <li>500,000 tonnes/year capacity</li>
+                        <li>Pipeline network connecting industrial clusters</li>
+                        <li>Salt cavern storage (30-day buffer)</li>
+                        <li>International supplier diversification</li>
+                        <li>Begin 10-20% hydrogen blending in gas grid</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h4>Phase 3: Own the Customer (Years 5-8)</h4>
+                    <p><strong>Investment:</strong> £3-5bn</p>
+                    <ul>
+                        <li>Launch consumer brand for residential market</li>
+                        <li>Target new builds and pilot towns for full conversion</li>
+                        <li>50-100 HGV refueling stations on major routes</li>
+                        <li>Fleet management services beyond fuel</li>
+                        <li>Hydrogen-capable peaker plants for grid flexibility</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Competitive Moats</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Infrastructure Lock-in</h3>
+                    <p>Replicating import terminals and pipelines requires £5-10bn and 5-10 years. First mover advantage is decisive.</p>
+                </div>
+                <div class="card">
+                    <h3>Supply Contracts</h3>
+                    <p>Long-term fixed-price contracts locked in before market matures. Competitors will pay 30-50% more.</p>
+                </div>
+                <div class="card">
+                    <h3>Customer Lock-in</h3>
+                    <p>10-20 year industrial offtake agreements. Once customers convert, re-conversion costs are prohibitive.</p>
+                </div>
+                <div class="card">
+                    <h3>Regulatory Position</h3>
+                    <p>First serious player helps write standards. Our infrastructure becomes the template.</p>
+                </div>
+                <div class="card">
+                    <h3>Data & Optimization</h3>
+                    <p>Real-time demand data across all sectors. Dynamic optimization of shipping, storage, and pricing.</p>
+                </div>
+                <div class="card">
+                    <h3>Asset Sweating</h3>
+                    <p>Leverage existing £300bn gas grid rather than building parallel infrastructure.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Why Hydrogen Beats Electrons</h2>
+            <div class="card">
+                <h3>Three Structural Advantages</h3>
+                <h4>Storage Economics</h4>
+                <p>Seasonal energy storage is impossible with batteries. Hydrogen in salt caverns: <strong>£2-5/MWh</strong> storage cost vs Battery: <strong>£150-300/MWh</strong>. We dominate on 3+ month time horizons.</p>
+                
+                <h4>Energy Density</h4>
+                <p>International energy arbitrage only works with hydrogen. Hydrogen ships carry <strong>1,000x more energy</strong> than battery ships could.</p>
+                
+                <h4>Infrastructure Leverage</h4>
+                <p>We repurpose the existing gas grid (£300bn of sunk infrastructure) rather than building new electrical distribution. Pure asset leverage play.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Financial Projections</h2>
+            <div class="metrics">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>Year 3 - First Revenue</h4>
+                        <div class="metric-grid">
+                            <div class="metric">
+                                <div class="metric-value">100k</div>
+                                <div class="metric-label">Tonnes H₂ Delivered</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">£400-600m</div>
+                                <div class="metric-label">Revenue</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">3-5</div>
+                                <div class="metric-label">Industrial Customers</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4>Year 5 - Scale Inflection</h4>
+                        <div class="metric-grid">
+                            <div class="metric">
+                                <div class="metric-value">300k</div>
+                                <div class="metric-label">Tonnes H₂ Delivered</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">£1.2-1.8bn</div>
+                                <div class="metric-label">Revenue</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">£300-500m</div>
+                                <div class="metric-label">EBITDA (25-30%)</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4>Year 8 - Material Market Share</h4>
+                        <div class="metric-grid">
+                            <div class="metric">
+                                <div class="metric-value">800k</div>
+                                <div class="metric-label">Tonnes H₂ Delivered</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">£3.5-5bn</div>
+                                <div class="metric-label">Revenue</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">£1.5-2.5bn</div>
+                                <div class="metric-label">EBITDA (40-50%)</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4>Year 12 - Mature Business</h4>
+                        <div class="metric-grid">
+                            <div class="metric">
+                                <div class="metric-value">2M</div>
+                                <div class="metric-label">Tonnes H₂ Delivered</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">£8-12bn</div>
+                                <div class="metric-label">Revenue</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">£4-6bn</div>
+                                <div class="metric-label">EBITDA (50%)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p style="text-align: center; margin-top: 30px; font-size: 1.3em;">
+                    <strong>Exit Valuation:</strong> Energy infrastructure trades at 12-16x EBITDA<br>
+                    <span style="color: #7ee787; font-size: 1.5em; font-weight: 700;">£48-96bn Enterprise Value at Maturity</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Why This Isn't Being Done Already</h2>
+            <div class="card">
+                <p style="margin-bottom: 20px;">It should be obvious, right? But:</p>
+                <ul>
+                    <li><strong>Incumbents can't pivot:</strong> Shell has $300bn in O&G assets. Shareholders revolt if they strand them.</li>
+                    <li><strong>Utilities are regulated:</strong> Can't take entrepreneurial risks. Everything goes through 18-month regulatory review cycles.</li>
+                    <li><strong>Infrastructure funds want proven models:</strong> They buy assets, not build new markets.</li>
+                    <li><strong>VCs don't understand energy:</strong> Too capital intensive, too long time horizon.</li>
+                    <li><strong>Industrials are customers:</strong> They want to buy hydrogen, not build supply chains.</li>
+                </ul>
+                <p style="margin-top: 20px; color: #7ee787; font-size: 1.2em;"><strong>The gap:</strong> No one has the combination of energy market understanding, infrastructure building capability, entrepreneurial speed, risk capital access, and willingness to build pre-demand.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Risks & Mitigations</h2>
+            <div class="grid">
+                <div class="risks">
+                    <h4>Technology Risk</h4>
+                    <p>Hydrogen embrittlement, efficiency losses</p>
+                    <p><strong>Mitigation:</strong> Start with new pipelines to industrial customers. Test and iterate before residential rollout.</p>
+                </div>
+                <div class="risks">
+                    <h4>Price Risk</h4>
+                    <p>Hydrogen stays expensive</p>
+                    <p><strong>Mitigation:</strong> Long-term fixed-price supply contracts. Natural gas price spikes improve our relative economics.</p>
+                </div>
+                <div class="risks">
+                    <h4>Regulatory Risk</h4>
+                    <p>Government backs electrification instead</p>
+                    <p><strong>Mitigation:</strong> Diversify across industrial, transport, and residential. Can't lose all three bets.</p>
+                </div>
+                <div class="risks">
+                    <h4>Demand Risk</h4>
+                    <p>Customers don't switch</p>
+                    <p><strong>Mitigation:</strong> Heavy discounts to anchor tenants. Once they've converted, switching costs are prohibitive.</p>
+                </div>
+                <div class="risks">
+                    <h4>Supply Risk</h4>
+                    <p>International suppliers flake</p>
+                    <p><strong>Mitigation:</strong> 3+ suppliers across 3+ continents. Domestic production optionality (expensive but possible).</p>
+                </div>
+                <div class="risks">
+                    <h4>Stranded Asset Risk</h4>
+                    <p>Wrong technology wins</p>
+                    <p><strong>Mitigation:</strong> Stage investments. Only commit next £1bn after previous phase proves out. Option value approach.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta">
+            <h2>The Ask</h2>
+            <p>We're raising <strong>£500m-1bn</strong> to build the beachhead.</p>
+            <p>In 3 years, we'll have:</p>
+            <ul style="text-align: left; display: inline-block; margin: 20px auto;">
+                <li>Operating import terminal</li>
+                <li>100,000 tonnes/year delivery capacity</li>
+                <li>£400-600m annual revenue</li>
+                <li>£1bn+ asset base</li>
+                <li>Proven unit economics</li>
+                <li>Clear path to £10bn+ business</li>
+            </ul>
+            <p class="cta-highlight">The UK energy market is £60bn/year and in transition.</p>
+            <p class="cta-highlight">We're building the infrastructure to capture £15-24bn of it.</p>
+            <p style="font-size: 1.5em; margin-top: 30px; font-weight: 600;">This is the Maersk of hydrogen. The Kinder Morgan of the 2030s.</p>
+            <p style="font-size: 1.3em;">The boring, obvious, inevitable infrastructure play that somehow no one else is doing.</p>
+        </div>
+    </div>
+</body>
+</html>
