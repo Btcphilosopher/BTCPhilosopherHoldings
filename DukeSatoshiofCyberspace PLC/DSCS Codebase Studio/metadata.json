@@ -1,0 +1,6 @@
+{
+  "name": "DSCS Codebase Studio",
+  "description": "Linux-native engineering workstation for Rust, R, and polyglot codebases with real toolchain orchestration and repository-to-web runtime.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
